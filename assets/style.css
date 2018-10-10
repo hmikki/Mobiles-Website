@@ -1,0 +1,256 @@
+body{
+    font-family: 'Muli', sans-serif;
+    text-decoration-color: #41e0d8 ;
+    margin: 0 auto;
+    color: #ffffff;
+    box-sizing: border-box;
+    padding: 0px;
+}
+.section{
+    background-color: #41e0d8;
+    width: 100%;
+    height: auto;
+    box-sizing: border-box;
+    padding-bottom: 105px;
+    padding-top: 105px;
+}
+.container{
+    position: relative;
+    width: 950px;
+    height: auto;
+    left: 50%;
+    transform: translate(-50%);
+}
+.heroSection{
+    background-color: white;
+    padding-bottom: 0px;
+    box-sizing: border-box;
+    padding-top: 0px;
+}
+.skew{
+    background: #41e0d8;
+    height: 650px;
+    transform: skew(-30deg , 0deg);
+    width: 100%;
+    position: relative;
+    right: -30%;
+        }
+.content{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+}
+.navbar{
+    width: 100%;
+    height: 60px;
+    margin-top: 10px;
+}
+.logo{
+    float: left;
+    width: 50%;
+    height: auto;
+}
+.menubar{
+    text-align: right;
+    width: 50%;
+    height: auto;
+    float: left;
+    text-transform: uppercase;
+}
+.menubar ul li{
+    display: inline-block;
+    margin-right: 70px;
+}
+.menubar ul button{
+    width: 140px;
+    height: 48px;
+    background-color: #3c262f;
+    color: white;
+    text-transform: uppercase;
+    cursor: pointer;
+    border: #3c262f;
+}
+.menubar ul li a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+.menubar ul li:first-child a{
+    margin-left: 0px;
+}
+.menubar ul li a:hover{
+    text-decoration: underline;
+}
+.clear{
+    clear: both;
+}
+.heroDesc{
+    width: 100%;
+    height: auto;
+    box-sizing: border-box;
+    margin-bottom: -4px;
+}
+.leftSection{
+    float: left;
+    width: 50%;
+    height: auto;
+    box-sizing: border-box;
+}
+.rightSection{
+    float: left;
+    width: 50%;
+    height: auto;
+    padding-top: 50px;
+    box-sizing: border-box;
+}
+h2{
+    color: #3c262f;
+    font-size: 42px;
+}
+.rightSection h2 span{
+    color: white;
+    font-style: italic;
+}
+.rightSection p{
+    padding-bottom: 50px;
+}
+.rightSection img{
+    height: 60px;
+    width: 202px;
+}
+.featureSection{
+    background-color: #262a34;
+}
+.featureSection .info h2{
+    color: white;
+}
+.featureSection .info button{
+    width: 140px;
+    height: 48px;
+    color: white;
+    background-color: #54c9c2;
+}
+.featureSection p{
+    padding-top: 85px;
+    padding-bottom: 85px;
+}
+.info{
+    float: left;
+    width: 50%;
+    height: auto;
+}
+.dev{
+    float: left;
+    width: 50%;
+    height: auto;
+}
+.left{
+    float: left;
+    text-align: left;
+}
+.right{
+    float: right;
+    text-align: right;
+    text-align: right;
+}
+.featureSection div.left{
+    width: 230px;
+    height: 405px;
+    margin-right: 10px;
+    background-color: #3f4551;
+}
+.featureSection div.right{
+    width: 230px;
+    height: 405px;
+    background-color: #3f4551;
+}
+.slideshow{
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    cursor: pointer;
+}
+.wordSection{
+    text-align: center;
+    padding-bottom: 0px;
+}
+.wordSection.rightSection{
+    
+    width: 595px;
+    height: 230px;
+}
+.wordSection span{
+    color: #41e0d8;
+    text-align: left;
+}
+.wordSection h2{
+    color: white;
+}
+.dialog{
+    color: #3f4551;
+    background-image: url(img/dialog-box.png);
+    text-align: left;
+    box-sizing: border-box;
+    height: 233px;
+    width: 615px;
+    margin-top: 200px;
+    padding: 50px;
+}
+.dialog span{
+    color: #41e0d8;
+}
+.wordSection.heroDesc.leftSection img{
+    text-align: left;
+}
+.joinSection{
+    background-color: #262a34;
+    text-align: center;
+}
+.joinSection h2{
+    color: white;
+}
+.joinSection p{
+    color: #51555d;
+}
+form{
+    padding-top: 85px;
+}
+input[type=text]{
+    color: #ffffff;
+    background-color: #51555d;
+    width: 465px;
+    height: 55px;
+    text-align: left;
+    border: #51555d;
+    padding-left: 20px;
+    font-size: 16px;
+    margin-right: 20px;
+    box-sizing: border-box;
+}
+input[type=submit]{
+    color: #41e0d8;
+    background-color: #ffffff;
+    width: 140px;
+    height: 55px;
+    text-align: center;
+    border: #ffffff;
+    font-size: 16px;
+    cursor: pointer;
+}
+.footerSection{
+    background-color: white;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.footerSection p{
+    color: #51555d;
+}
+.footerSection a{
+    color: #41e0d8;
+    text-decoration: none;
+}
+.footerSection a:hover{
+    text-decoration: underline;
+}
